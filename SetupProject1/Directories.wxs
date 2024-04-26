@@ -10,7 +10,7 @@
             </Directory>
             
             <?if $(var.Platform) = x64 ?>
-            <Directory Id="ProgramFiles64Folder">
+            <Directory Id="AppDataFolder">
                 <Directory Id="INSTALLFOLDER" Name="!(loc.ProductNameFolder)" />
             </Directory>
             <?else?>
